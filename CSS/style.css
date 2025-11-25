@@ -160,7 +160,9 @@ body{
     border-width: 2px;
     border-radius: 10px;
     font-size: large;
+    margin-left: 400px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -169,7 +171,9 @@ body{
     border-width: 2px;
     border-radius: 10px;
     font-size: large;
+    margin-left: 400px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -178,7 +182,9 @@ body{
     border-width: 2px;
     border-radius: 10px;
     font-size: large;
+    margin-left: 400px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -189,22 +195,6 @@ body{
     margin-bottom: 20px;
     margin-top: 10px;
     text-align: center;
-}
-#modalback{
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.336);
-}
-.href2{
-    margin-top: 10px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.397);
-    width: 200px;
-    border: rgba(0, 0, 0, 0.397) solid 1px;
-    border-radius: 10px;
-    box-shadow: rgba(196, 196, 196, 0.397) 2px 2px 6px 2px;
-    margin-bottom: 10px;
-    margin-left: 22px;
 }
 
 #siderbar{
@@ -276,6 +266,13 @@ body{
     }
    
 }
+.sidebody{
+    border:rgba(0, 0, 0, 0.397) solid 1px;
+    border-width: 10px;
+    border-bottom-width: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(196, 196, 196, 0.397) 2px 2px 6px 2px;
+}
 .dino{
     border:white 2px solid;
 }
@@ -299,6 +296,5 @@ body{
     color: lightsteelblue;
 }
 .volta{
-    color: 
-    lightgray;
+    color: lightgray;
 }
