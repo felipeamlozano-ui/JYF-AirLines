@@ -1,0 +1,304 @@
+body{
+    background-image: url(../IMAGENS/o-aviao-voa-baixo-sobre-os-predios-altos-olhando-para-a-aeronave-entre-os-arranha-ceus-visao-de-angulo-baixo-generative-ai_116317-25564.avif);
+    background-size: cover;
+    width: 98%;
+}
+.J{
+    color: red;
+    text-shadow: 3px 3px 6px red;
+}
+.Y{
+    text-shadow: 3px 3px 6px white;
+}
+.F{
+    color: red;
+    text-shadow: 3px 3px 6px red;
+}
+.air{
+    font-family:'Optima';
+}
+.menu2{
+    margin-top: 15px;
+    border: #ccc 1px solid;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 20px;
+    color: white;
+}
+.redanimation1, .redanimation2, .redanimation3, .redanimation4{
+    color: transparent;
+}
+.whiteanimation1, .whiteanimation2, .whiteanimation3, .whiteanimation4{
+    color:transparent;
+}
+.whiteanimation1{
+    animation: white1 infinite 1s;
+}
+.whiteanimation2{
+    animation: white2 infinite 1s;
+}
+.whiteanimation3{
+    animation: white3 infinite 1s;
+}
+.whiteanimation4{
+    animation: white4 infinite 1s;
+}
+.redanimation1{
+    animation: red1 infinite 1s;
+}
+.redanimation2{
+    animation: red2 infinite 1s;
+}
+.redanimation3{
+    animation: red3 infinite 1s;
+}
+.redanimation4{
+    animation: red4 infinite 1s;
+}
+@keyframes white1 {
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    30%{
+        border-color: white;
+        color: white;
+        text-shadow: white 1px 1px 6px;
+    }
+}
+@keyframes white2 {
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    10%{
+        border-color: white;
+        color: white;
+        text-shadow: white 1px 1px 6px;
+    }
+}
+@keyframes white3 {
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    10%{
+        border-color: white;
+        color: white;
+        text-shadow: white 1px 1px 6px;
+    }
+}
+@keyframes white4 {
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    30%{
+        border-color: white;
+        color: white;
+        text-shadow: white 1px 1px 6px;
+    }
+}
+@keyframes red2{
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    20%{
+        border-color: red;
+        color: red;
+        text-shadow: red 1px 1px 6px;
+    }
+}
+@keyframes red1{
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    20%{
+        border-color: red;
+        color: red;
+        text-shadow: red 1px 1px 6px;
+    }
+}@keyframes red3{
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    20%{
+        border-color: red;
+        color: red;
+        text-shadow: red 1px 1px 6px;
+    }
+}
+@keyframes red4{
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    20%{
+        border-color: red;
+        color: red;
+        text-shadow: red 1px 1px 6px;
+    }
+}
+.menu {
+    top: 70px;
+    text-align: center;
+    right: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border: 1% solid #ccc;
+    color: white;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 1px;
+    box-shadow: rgba(196, 196, 196, 0.397) 2px 2px 6px 2px;
+}
+#buttoncontato{
+    border: #ccc 1px solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#buttontermos{
+    border: #ccc 1px solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#buttonpassagens{
+    border: #ccc 1px solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#topside{
+    background-color: white;
+}
+.href{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+#modalback{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+.href2{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 200px;
+    border: rgba(0, 0, 0, 0.397) solid 1px;
+    border-radius: 10px;
+    box-shadow: rgba(196, 196, 196, 0.397) 2px 2px 6px 2px;
+    margin-bottom: 10px;
+    margin-left: 22px;
+}
+
+#siderbar{
+    max-height: 800px;
+}
+#paises{
+    text-align: center;
+    justify-content: center;
+    bottom: 50px;
+}
+#paginas{
+    position: absolute;
+    bottom: 100px;
+    size: 5px;
+}
+.pais{
+    font-size:13px;
+    text-decoration: none;
+    background-color:royalblue;
+    color: white;
+    border-radius: 10px;
+    border: white solid 1px;
+    border-style: groove;
+    animation: piscar 3s infinite;
+    margin-top: 4px;
+    border-width: 2px;
+}
+.pais1{
+    font-size:large;
+    text-decoration: none;
+    color: white;
+    animation: piscar1 3s infinite;
+    margin-top: 4px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+@keyframes piscar {
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    20%{
+        border-color: white;
+        color:white;
+    }
+    30%{
+        border-color: rgb(red, rgb(0, 87, 128), blue);
+        color:rgb(red, rgb(0, 87, 128), blue);
+    }
+    40%{
+        border-color: white;
+        color:white;
+    }
+   
+}
+@keyframes piscar1 {
+    0%, 100% {
+        border-color: transparent;
+        color: transparent;
+    }
+    20%{
+        border-color: white;
+        color:white;
+    }
+    30%{
+        color:rgb(red, rgb(0, 87, 128), blue);
+    }
+    40%{
+        color:white;
+    }
+   
+}
+.dino{
+    border:white 2px solid;
+}
+.card-body{
+    background-color: rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.titlerecomendados{
+    color: red;
+    border-radius: 10px;
+    border: white solid 1px;
+    border-style: groove;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.dindin{
+    color: greenyellow;
+    font-weight: bold;
+}
+.ida{
+    color: lightsteelblue;
+}
+.volta{
+    color: 
+    lightgray;
+}

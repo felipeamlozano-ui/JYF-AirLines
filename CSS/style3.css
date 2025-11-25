@@ -1,0 +1,65 @@
+.barra{
+    border: gray 30px solid;
+    background-color:gray;
+}
+.buttonvoltar{
+    border-radius: 10px;
+    background-color:rgba(45, 45, 45);
+}
+.aaa{
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 700px;
+    height: 350px;
+}
+.pais:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    border: rgba(199, 199, 199, 0.747) solid 1px;
+    background-color:rgba(199, 199, 199, 0.705)  ;
+}
+.aaa:hover{
+    background-color: rgba(199, 199, 199, 0.705) ;
+}
+body:hover{
+    background-color: rgb(155, 154, 154);
+}
+.barra:hover{
+    border: rgb(170, 170, 170) 30px solid;
+    background-color:rgb(170, 170, 170);
+}
+.confirmation-toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1055;
+  background-color: #28a745; 
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: none; 
+}
+
+.fade-out {
+  animation: fadeOut 1s forwards; 
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+#countdown {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  display: inline-block;
+}
+

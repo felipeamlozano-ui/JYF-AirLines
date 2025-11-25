@@ -1,0 +1,37 @@
+body{
+    background-image:url(../IMAGENS/email.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    text-align: center;
+    top: 50px;
+    
+}
+.card-body{
+    background-color: rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.card-title{
+    margin-top: 10px;
+    border: white solid 1px;
+    border-radius: 10px;
+    background-color: grey;
+    text-shadow: 2px 2px 4px black;
+}
+.buttonsaida{
+    border-radius: 10px;
+}
+.back{
+    background-color: rgba(152, 152, 152, 0.902);
+    font-weight: bold;
+}
+.enviar{
+    background-color: rgba(152, 152, 152, 0.902);
+    font-weight: bold;
+}
+.voltar{
+    background-color: rgba(152, 152, 152, 0.902);
+    font-weight: bold;
+    color: black;
+}
